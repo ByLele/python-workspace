@@ -1,0 +1,19 @@
+author: AriaSaki
+etag: tj4DI5R3T_3mvuL-HY8t47jLVdE
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: Hello! I go by Aria and this is where I'll be uploading streaming content
+    :) I am a variety streamer over at Twitch!
+  publishedAt: '2023-10-10T13:50:46.864797Z'
+  resourceId:
+    channelId: UCitxA9Sa_GxxGSqNJEWRbuA
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/ytc/APkrFKbjooE-5qG0Gtt6-57pSXIZYY2ZpGIOk6ssiEJm=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/ytc/APkrFKbjooE-5qG0Gtt6-57pSXIZYY2ZpGIOk6ssiEJm=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/ytc/APkrFKbjooE-5qG0Gtt6-57pSXIZYY2ZpGIOk6ssiEJm=s240-c-k-c0x00ffffff-no-rj
+  title: AriaSaki

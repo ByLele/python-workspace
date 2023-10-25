@@ -1,0 +1,18 @@
+author: Namewee
+etag: V6I33qzuYSqjHXGhHfP4T8xX4a8
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: ''
+  publishedAt: '2020-08-09T12:32:47.977708Z'
+  resourceId:
+    channelId: UCFUtqTcgJgRnmZ3tMU6P74Q
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/C9x9DkjWeUtrajNFe74umx4XT4u5BtPi5cEK6KrwIyKh7xyUatZmAiwBnkTbm6efcH_EQSQwPqw=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/C9x9DkjWeUtrajNFe74umx4XT4u5BtPi5cEK6KrwIyKh7xyUatZmAiwBnkTbm6efcH_EQSQwPqw=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/C9x9DkjWeUtrajNFe74umx4XT4u5BtPi5cEK6KrwIyKh7xyUatZmAiwBnkTbm6efcH_EQSQwPqw=s240-c-k-c0x00ffffff-no-rj
+  title: Namewee

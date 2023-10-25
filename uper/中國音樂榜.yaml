@@ -1,0 +1,18 @@
+author: 中國音樂榜
+etag: 7YTBxScx3WheSDG98UT_w6ibUPc
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: 感動你的世界，我要我的音樂
+  publishedAt: '2023-10-10T13:34:01.768005Z'
+  resourceId:
+    channelId: UCnoYVhu7C9NonT2PjhdVZwg
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/AouHG4_L3yVbtV3yl1F7vz4-1AjjT9HCi9bHZU4bcNlfLdZvQmwh8A6ZWb0YNyfo7XMIXOvjZA=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/AouHG4_L3yVbtV3yl1F7vz4-1AjjT9HCi9bHZU4bcNlfLdZvQmwh8A6ZWb0YNyfo7XMIXOvjZA=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/AouHG4_L3yVbtV3yl1F7vz4-1AjjT9HCi9bHZU4bcNlfLdZvQmwh8A6ZWb0YNyfo7XMIXOvjZA=s240-c-k-c0x00ffffff-no-rj
+  title: 中國音樂榜

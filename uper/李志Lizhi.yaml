@@ -1,0 +1,18 @@
+author: 李志Lizhi
+etag: ZzouoLNdafAqJnddMqqeqopiLtQ
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: ''
+  publishedAt: '2020-06-07T10:13:50.003503Z'
+  resourceId:
+    channelId: UCWTQhMAoQY8nc-WaIiVnssg
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/ytc/APkrFKY_hw-gEPqAnP7EeYT_r1kReYgNNHy0S6YO4-2Y=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/ytc/APkrFKY_hw-gEPqAnP7EeYT_r1kReYgNNHy0S6YO4-2Y=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/ytc/APkrFKY_hw-gEPqAnP7EeYT_r1kReYgNNHy0S6YO4-2Y=s240-c-k-c0x00ffffff-no-rj
+  title: 李志Lizhi

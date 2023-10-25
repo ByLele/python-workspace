@@ -1,0 +1,18 @@
+author: Wave Media
+etag: rFjtSreDH4-W3_vB2T8W7CbqvO0
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: https://chinaacademy.substack.com/
+  publishedAt: '2022-01-26T02:37:43.259508Z'
+  resourceId:
+    channelId: UCMSeeM3OMEbvEFVdM5_FM3Q
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/IGzu1UrPB9XQ2q34nVQbz-7rdxxg8gupUIcKd8sGHQZGX6-lAAx6eREidH7Y8K1ZSK8flgPNlRo=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/IGzu1UrPB9XQ2q34nVQbz-7rdxxg8gupUIcKd8sGHQZGX6-lAAx6eREidH7Y8K1ZSK8flgPNlRo=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/IGzu1UrPB9XQ2q34nVQbz-7rdxxg8gupUIcKd8sGHQZGX6-lAAx6eREidH7Y8K1ZSK8flgPNlRo=s240-c-k-c0x00ffffff-no-rj
+  title: Wave Media

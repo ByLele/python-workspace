@@ -1,0 +1,18 @@
+author: 李老师不是你老师
+etag: H_TIMSBdZ9KPx7zfN6ExSa05efE
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: 李老师的Youtube频道
+  publishedAt: '2023-10-13T15:11:02.215547Z'
+  resourceId:
+    channelId: UCrMjr7dY8syS_m9TdqM-g_Q
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/lTqNDFfkcVT3tS0sJLUDdOf6qQ_J8bPJ2EPTmshGf9dLRzMZMrslZIRnL2OVONBEKgp7cEo1lw=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/lTqNDFfkcVT3tS0sJLUDdOf6qQ_J8bPJ2EPTmshGf9dLRzMZMrslZIRnL2OVONBEKgp7cEo1lw=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/lTqNDFfkcVT3tS0sJLUDdOf6qQ_J8bPJ2EPTmshGf9dLRzMZMrslZIRnL2OVONBEKgp7cEo1lw=s240-c-k-c0x00ffffff-no-rj
+  title: 李老师不是你老师

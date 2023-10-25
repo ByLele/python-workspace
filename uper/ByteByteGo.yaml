@@ -1,0 +1,26 @@
+author: ByteByteGo
+etag: cvainjU-lISWw5ee4ru3ZKUG-gg
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: 'Covering topics and trends in large-scale system design, from the
+    authors of the best-selling System Design Interview book series. This channel
+    is managed by Alex Xu and Sahn Lam.
+
+
+    Subscribe to our weekly system design newsletter (10-min read): https://bit.ly/3tfAlYD
+
+
+    Take our system design online course: https://bit.ly/3mlDSk9'
+  publishedAt: '2023-02-08T00:27:29.794014Z'
+  resourceId:
+    channelId: UCZgt6AzoyjslHTC9dz0UoTw
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/efrVnDJbJOQ5XcXrrFhA9V2wTXh6gP_i0KycoYjqhN3nEh6VbCgqMQakAcFqEsguw7wxhHEjnA=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/efrVnDJbJOQ5XcXrrFhA9V2wTXh6gP_i0KycoYjqhN3nEh6VbCgqMQakAcFqEsguw7wxhHEjnA=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/efrVnDJbJOQ5XcXrrFhA9V2wTXh6gP_i0KycoYjqhN3nEh6VbCgqMQakAcFqEsguw7wxhHEjnA=s240-c-k-c0x00ffffff-no-rj
+  title: ByteByteGo

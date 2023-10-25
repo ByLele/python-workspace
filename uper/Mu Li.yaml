@@ -1,0 +1,18 @@
+author: Mu Li
+etag: 2assreoy5aew5smqas1jrJ8QdRc
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: ''
+  publishedAt: '2023-04-20T15:14:51.657224Z'
+  resourceId:
+    channelId: UC8WCW6C3BWLKSZ5cMzD8Gyw
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/ytc/APkrFKYuYotgErDaz6B2I9pIOx8n6pjG3OwG8uYP3u2D40Y=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/ytc/APkrFKYuYotgErDaz6B2I9pIOx8n6pjG3OwG8uYP3u2D40Y=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/ytc/APkrFKYuYotgErDaz6B2I9pIOx8n6pjG3OwG8uYP3u2D40Y=s240-c-k-c0x00ffffff-no-rj
+  title: Mu Li

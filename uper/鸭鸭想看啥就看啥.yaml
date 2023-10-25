@@ -1,0 +1,18 @@
+author: 鸭鸭想看啥就看啥
+etag: QTwbD-Rs_VeJMP75ckMmXLecI6Q
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: 想看什么鸭 | 更多视频在bilibili哦
+  publishedAt: '2023-01-08T11:56:32.558493Z'
+  resourceId:
+    channelId: UCF9WzjAkSOo_iSN5Y7KOQNg
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/yO-bYw5-Kkz3_ys4hQjfDhA4Sy5tOO2KnsKwfd1N9q_VV9f7HYXHYEf-UZYxusy4asxTHqM=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/yO-bYw5-Kkz3_ys4hQjfDhA4Sy5tOO2KnsKwfd1N9q_VV9f7HYXHYEf-UZYxusy4asxTHqM=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/yO-bYw5-Kkz3_ys4hQjfDhA4Sy5tOO2KnsKwfd1N9q_VV9f7HYXHYEf-UZYxusy4asxTHqM=s240-c-k-c0x00ffffff-no-rj
+  title: 鸭鸭想看啥就看啥

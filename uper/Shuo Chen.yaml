@@ -1,0 +1,21 @@
+author: Shuo Chen
+etag: epFVJgSOpVVhe-2lRE3WElsDcPc
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: '科班出身的业余电子爱好者。
+
+
+    https://twitter.com/bnu_chenshuo'
+  publishedAt: '2023-01-07T13:25:00.294328Z'
+  resourceId:
+    channelId: UC0gHqKVW47AJIwVugvZF_Lg
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/ytc/APkrFKZ6qFzvIhlHoTwy5W7PD9Y0JZa2KDSxmO1lBEJNeqU=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/ytc/APkrFKZ6qFzvIhlHoTwy5W7PD9Y0JZa2KDSxmO1lBEJNeqU=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/ytc/APkrFKZ6qFzvIhlHoTwy5W7PD9Y0JZa2KDSxmO1lBEJNeqU=s240-c-k-c0x00ffffff-no-rj
+  title: Shuo Chen

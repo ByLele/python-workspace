@@ -1,0 +1,18 @@
+author: Milan
+etag: VlIEuRHtv7Y8-X7iI-4oSCWAKe4
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: ''
+  publishedAt: '2023-08-24T16:25:27.641308Z'
+  resourceId:
+    channelId: UCGMifByTxLgIATcYNfmPTSQ
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/ytc/APkrFKZJyUw63lWGgLeAQlq-yY_imb6WA4785IpfUw0emnk=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/ytc/APkrFKZJyUw63lWGgLeAQlq-yY_imb6WA4785IpfUw0emnk=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/ytc/APkrFKZJyUw63lWGgLeAQlq-yY_imb6WA4785IpfUw0emnk=s240-c-k-c0x00ffffff-no-rj
+  title: Milan

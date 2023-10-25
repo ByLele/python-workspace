@@ -1,0 +1,18 @@
+author: 老陌
+etag: 5pz5tRhvMpSk90jMyWSu9cwbLrI
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: 人在西安，自己开公司，深耕金融居间，主做地产金融和银行直存！
+  publishedAt: '2023-10-06T10:21:59.664521Z'
+  resourceId:
+    channelId: UCyaQwmb8Rf1fTYxziB7bGbg
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/NdTKBHyRbEGTcmBL-wcp2SJEPHpMETzGEKlckd_xvrNYKmDukmhH6-oLvnBVzyp5GqHo04H5PA=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/NdTKBHyRbEGTcmBL-wcp2SJEPHpMETzGEKlckd_xvrNYKmDukmhH6-oLvnBVzyp5GqHo04H5PA=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/NdTKBHyRbEGTcmBL-wcp2SJEPHpMETzGEKlckd_xvrNYKmDukmhH6-oLvnBVzyp5GqHo04H5PA=s240-c-k-c0x00ffffff-no-rj
+  title: 老陌

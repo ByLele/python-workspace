@@ -1,0 +1,20 @@
+author: TenGuSan
+etag: CgAEQlqV_AbZNw1os3QkSpOFK1g
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: '一頓飯時間，了解亞文化
+
+    全部影片YouTube獨家放送'
+  publishedAt: '2023-08-12T05:15:22.291859Z'
+  resourceId:
+    channelId: UC9RS8EzXdRJyYDkwtcsWOuA
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/usp3VXLTAa0WjvDKFMqZwx0iRHMVWnoPtfJWOFHALf9majw2tQY3RLagG9AdJhce8fbd-9_0Mw=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/usp3VXLTAa0WjvDKFMqZwx0iRHMVWnoPtfJWOFHALf9majw2tQY3RLagG9AdJhce8fbd-9_0Mw=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/usp3VXLTAa0WjvDKFMqZwx0iRHMVWnoPtfJWOFHALf9majw2tQY3RLagG9AdJhce8fbd-9_0Mw=s240-c-k-c0x00ffffff-no-rj
+  title: TenGuSan

@@ -1,0 +1,20 @@
+author: Naomi Wu
+etag: 5LNpFHqRv2_A7wc2rWfToBOgAXc
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: I'm a tech and DIY enthusiast from Shenzhen, China. I like to show
+    what life here is like here, review the latest cutting-edge tech from the "Silicon
+    Valley of Hardware" and build awesome things in my livingroom workshop.
+  publishedAt: '2023-02-03T04:31:12.812313Z'
+  resourceId:
+    channelId: UCh_ugKacslKhsGGdXP0cRRA
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/ytc/APkrFKaSgnjQTvcQmfFa95jloHx8_dNPQXskPAABiRlYPA=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/ytc/APkrFKaSgnjQTvcQmfFa95jloHx8_dNPQXskPAABiRlYPA=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/ytc/APkrFKaSgnjQTvcQmfFa95jloHx8_dNPQXskPAABiRlYPA=s240-c-k-c0x00ffffff-no-rj
+  title: Naomi Wu

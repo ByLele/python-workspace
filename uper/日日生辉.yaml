@@ -1,0 +1,18 @@
+author: 日日生辉
+etag: tpZHhyS374d3bBoNbRSlrWV7FxQ
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: 一个超级温情的 Story Teller.同时会更新一些自己看到的有价值的视频
+  publishedAt: '2023-10-14T05:31:56.053305Z'
+  resourceId:
+    channelId: UCqjyL1oevcsugm62Fgqpklg
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/DMJrQbRql3B5vY9J9-0l-pdgN6HB8Y232sBiW7JUkL00LfZSChJ48W7z6n1e7RKDjpVD5ksJ=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/DMJrQbRql3B5vY9J9-0l-pdgN6HB8Y232sBiW7JUkL00LfZSChJ48W7z6n1e7RKDjpVD5ksJ=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/DMJrQbRql3B5vY9J9-0l-pdgN6HB8Y232sBiW7JUkL00LfZSChJ48W7z6n1e7RKDjpVD5ksJ=s240-c-k-c0x00ffffff-no-rj
+  title: 日日生辉

@@ -1,0 +1,18 @@
+author: 爱好者NHK
+etag: Mg96HkwRL3uYVYsIYu1Jq2Vgz0k
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: ''
+  publishedAt: '2023-10-03T03:11:52.231231Z'
+  resourceId:
+    channelId: UCwYWA5l26hcZW3Lg0u5GHMQ
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/ytc/APkrFKZMwxecwdhMwpiGPBSGB3RE3RSPwzGouorlDA=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/ytc/APkrFKZMwxecwdhMwpiGPBSGB3RE3RSPwzGouorlDA=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/ytc/APkrFKZMwxecwdhMwpiGPBSGB3RE3RSPwzGouorlDA=s240-c-k-c0x00ffffff-no-rj
+  title: 爱好者NHK

@@ -1,0 +1,18 @@
+author: 英格零虾
+etag: fARI79SazupwvedC8ZsyxxCcZQc
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: ''
+  publishedAt: '2023-03-18T14:52:44.064269Z'
+  resourceId:
+    channelId: UCJjVamCeM7LMmdFoDdwTHiA
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/kL92x8ilo6PNnn520HChEjNVF4SrSTR9vRtyttWyHrC7eilY_aQiS_6drFSt4q791UiUce176A=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/kL92x8ilo6PNnn520HChEjNVF4SrSTR9vRtyttWyHrC7eilY_aQiS_6drFSt4q791UiUce176A=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/kL92x8ilo6PNnn520HChEjNVF4SrSTR9vRtyttWyHrC7eilY_aQiS_6drFSt4q791UiUce176A=s240-c-k-c0x00ffffff-no-rj
+  title: 英格零虾

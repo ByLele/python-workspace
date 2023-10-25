@@ -1,0 +1,18 @@
+author: 快乐王国
+etag: LARMJvnHSGy0yTZfQNejT8F97gM
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: 分享多一份快乐
+  publishedAt: '2023-10-10T13:29:26.470097Z'
+  resourceId:
+    channelId: UC720ZT1gC8KHSr-DPG-Yd2w
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/aV67S5uxOlOp_ktxAv8p3kGBmRaceQ-AAo1OskYX4XAfe96UllNwXaAfjPv_Iw7ktar6z0XaLw=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/aV67S5uxOlOp_ktxAv8p3kGBmRaceQ-AAo1OskYX4XAfe96UllNwXaAfjPv_Iw7ktar6z0XaLw=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/aV67S5uxOlOp_ktxAv8p3kGBmRaceQ-AAo1OskYX4XAfe96UllNwXaAfjPv_Iw7ktar6z0XaLw=s240-c-k-c0x00ffffff-no-rj
+  title: 快乐王国

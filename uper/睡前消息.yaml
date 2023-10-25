@@ -1,0 +1,18 @@
+author: 睡前消息
+etag: x5BW-UUh5wF97de7dAy4fqe3TgI
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: ''
+  publishedAt: '2023-09-26T14:31:00.732932Z'
+  resourceId:
+    channelId: UCR4U_q_MojVVqYnawAVlryw
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/IqGQPAzadxyE5cssvXpOYobdnC9N9OSdq5sHU0L6HrupyD_egJSHRQZvFcIoqO6qw5Cgn8pS=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/IqGQPAzadxyE5cssvXpOYobdnC9N9OSdq5sHU0L6HrupyD_egJSHRQZvFcIoqO6qw5Cgn8pS=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/IqGQPAzadxyE5cssvXpOYobdnC9N9OSdq5sHU0L6HrupyD_egJSHRQZvFcIoqO6qw5Cgn8pS=s240-c-k-c0x00ffffff-no-rj
+  title: 睡前消息

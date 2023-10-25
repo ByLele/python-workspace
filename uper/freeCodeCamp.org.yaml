@@ -1,0 +1,18 @@
+author: freeCodeCamp.org
+etag: QP2qbzBjkyL1oME3-duX8wcaDlM
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: Learn to code for free.
+  publishedAt: '2023-07-27T03:16:31.40041Z'
+  resourceId:
+    channelId: UC8butISFwT-Wl7EV0hUK0BQ
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/ytc/APkrFKaqca-xQcJtp1Pqv-APucCa0nToHYGPVT00YBGOSw=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/ytc/APkrFKaqca-xQcJtp1Pqv-APucCa0nToHYGPVT00YBGOSw=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/ytc/APkrFKaqca-xQcJtp1Pqv-APucCa0nToHYGPVT00YBGOSw=s240-c-k-c0x00ffffff-no-rj
+  title: freeCodeCamp.org

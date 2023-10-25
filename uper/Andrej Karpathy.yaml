@@ -1,0 +1,27 @@
+author: Andrej Karpathy
+etag: cYuc9VTHP2Lgt80IbZQFQZ7h5Js
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: 'My motivation for creating this channel: https://twitter.com/karpathy/status/1577746577463967745
+
+
+    FAQ
+
+    Q: How can I pay you? Do you have a Patreon or etc?
+
+    A: As YouTube partner I do share in a small amount of the ad revenue on the videos,
+    but I don''t maintain any other extra payment channels. I would prefer that people
+    "pay me back" by using the knowledge to build something great.'
+  publishedAt: '2023-01-20T01:03:45.880446Z'
+  resourceId:
+    channelId: UCXUPKJO5MZQN11PqgIvyuvQ
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/ytc/APkrFKYFOSxGL4HypEGJ_1rOLkzUlT7qvOiflHFqKTonUrs=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/ytc/APkrFKYFOSxGL4HypEGJ_1rOLkzUlT7qvOiflHFqKTonUrs=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/ytc/APkrFKYFOSxGL4HypEGJ_1rOLkzUlT7qvOiflHFqKTonUrs=s240-c-k-c0x00ffffff-no-rj
+  title: Andrej Karpathy
