@@ -88,6 +88,7 @@ def uper_yaml_write(uper_data:dict) -> None:
 
     for item in uper_data:
         #pprint.pprint(item)
+
         filename = item.get("snippet").get("title")
         # json_data = json.dumps(item,enco,ensure_ascii=False)
         uper_data = {}
@@ -101,22 +102,28 @@ def uper_yaml_write(uper_data:dict) -> None:
         filename = filename +".yaml"
         filename = "./uper/"+filename 
         try:
+            print(filename)
             with open(filename,"w",encoding='utf-8') as f:
                 yaml.dump(uper_data,f,allow_unicode=True)
         except Exception as e:
             print(e)
         print("\n \n")
-# # authenticate to YouTube API
-# youtube = youtube_authenticate() 
-# video_url = "https://www.youtube.com/watch?v=jNQXAC9IVRw&ab_channel=jawed"
-# # parse video ID from URL
-# video_id = get_video_id_by_url(video_url)
-# # make API call to get video info
-# #response = get_video_details(youtube, id=video_id)
-
-# channellist = get_sub(youtube)
-#print(video_id)
-#pprint.pprint(response)
+        
+        
+def yaml_reade(filepath:str)->None:
+    for root,dir,file in os.walk(filepath):
+        try:
+            with open(file,"r") as f:
+                yaml_data = yaml.safe_load(file)
+        except Exception as e:
+            print(e)
+  
+def activity_channel_list(channelId:str,**kwargs):
+    return youtube.activities().list(
+        part="snippet",
+        channelId=channelId,
+        **kwargs
+    ).execute()     
 
 if __name__ == "__main__":
         # authenticate to YouTube API
@@ -129,14 +136,14 @@ if __name__ == "__main__":
     
     pprint.pprint(response)
     
-    channellist = get_sub(youtube)
-    items = channellist.get("items")
-    uper_yaml_write(items)
-    while channellist.get("nextPageToken"):
+    # channellist = get_sub(youtube)
+    # items = channellist.get("items")
+    # uper_yaml_write(items)
+    # while channellist.get("nextPageToken"):
         
-        channellist = get_sub(youtube,pageToken=channellist.get("nextPageToken"))
-        items = channellist.get("items")
-        uper_yaml_write(items)
+    #     channellist = get_sub(youtube,pageToken=channellist.get("nextPageToken"))
+    #     items = channellist.get("items")
+    #     uper_yaml_write(items)
         
 
     # print(channellist)
@@ -146,3 +153,6 @@ if __name__ == "__main__":
 
 
 
+    res = activity_channel_list(channelId="UCJncdiH3BQUBgCroBmhsUhQ")
+    
+    print(res)
