@@ -125,6 +125,36 @@ def activity_channel_list(channelId:str,**kwargs):
         **kwargs
     ).execute()     
 
+def uper_activities(channelId:str)-> dict:
+    res = activity_channel_list(channelId=channelId)
+    
+    page_nexttoken = res.get("nextPageToken")
+    activities_list = res.get("items",[])
+    uper_activities = {}
+    if len(activities_list) < 0:
+        logger.info("no activities")
+    uper_activities["uper"] = activities_list[0]["snippet"].get("channelTitle","")
+    act_list = []
+    act = []
+    title = []
+    for item in activities_list:
+        if item["snippet"].get("title") in title:
+            continue
+        if item["snippet"].get("type") != "upload":
+            continue
+        title.append(item["snippet"].get("title"))
+        act.append({"title":item["snippet"].get("title")})
+        act.append({"description":item.get("snippet").get("description")})
+        act.append({"url":item["snippet"]["thumbnails"]["default"]["url"]})
+        act.append({"time":item["snippet"].get("publishedAt")})
+        act_list.append(act)  
+          
+    uper_activities['video_list'] = act_list
+    return uper_activities
+
+def notion_sync(uper:dict):
+    
+    
 if __name__ == "__main__":
         # authenticate to YouTube API
     youtube = youtube_authenticate() 
@@ -134,7 +164,7 @@ if __name__ == "__main__":
     # make API call to get video info
     response = get_video_details(youtube, id=video_id)
     
-    pprint.pprint(response)
+    #pprint.pprint(response)
     
     # channellist = get_sub(youtube)
     # items = channellist.get("items")
@@ -155,4 +185,31 @@ if __name__ == "__main__":
 
     res = activity_channel_list(channelId="UCJncdiH3BQUBgCroBmhsUhQ")
     
-    print(res)
+    #pprint.pprint(res)
+    
+    page_nexttoken = res.get("nextPageToken")
+    activities_list = res.get("items",[])
+    uper_activities = {}
+    if len(activities_list) < 0:
+        logger.info("no activities")
+    uper_activities["uper"] = activities_list[0]["snippet"].get("channelTitle","")
+    act_list = []
+    act = []
+    title = []
+    for item in activities_list:
+        if item["snippet"].get("title") in title:
+            continue
+        if item["snippet"].get("type") != "upload":
+            continue
+        title.append(item["snippet"].get("title"))
+        act.append({"title":item["snippet"].get("title")})
+        act.append({"description":item.get("snippet").get("description")})
+        act.append({"url":item["snippet"]["thumbnails"]["default"]["url"]})
+        act.append({"time":item["snippet"].get("publishedAt")})
+        act_list.append(act)  
+          
+    uper_activities['video_list'] = act_list
+    
+    pprint.pprint(uper_activities)
+        
+    
