@@ -97,9 +97,9 @@ def notion_page_additem(token,pageid,title,content):
             #         {"id": pageid}
             #     ]
             # }
-            "Activity":{
-                "type":"act",
-                "act":{content}
+            "text":{
+                "type":"text",
+                "text":{"act":content}
             }
         }
     }
