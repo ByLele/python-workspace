@@ -46,8 +46,4 @@ if __name__ == "__main__":
     pprint(pages)
     for page in pages:
         page_id = page["id"]
-        props = page["properties"]
-    
-        title = props["Title"]["rich_text"][0]["text"]["content"]
-        published = props["Published"]["date"]["start"]
-        published = datetime.fromisoformat(published)
+        #props = page["properties"]

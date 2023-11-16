@@ -11,7 +11,7 @@ import pprint
 import json
 import yaml
 import sys
-from notionapi import notion_token,notion_page_additem
+from notionapi import notion_token,notion_page_additem,notion_block_add
 SCOPES = ["https://www.googleapis.com/auth/youtube.force-ssl"]
 import logging
 logging.basicConfig(
@@ -215,4 +215,5 @@ if __name__ == "__main__":
     title = uper_activities.get("uper")
     _,token = notion_token()
     pageid = "780d7bfd44a64a37bcb21c5f5278053e"
-    result = notion_page_additem(token=token,pageid=pageid,title=title,content=uper_activities)
+    content = str(uper_activities)
+    notion_block_add(token=token,blockid=pageid,title=title,content=content)

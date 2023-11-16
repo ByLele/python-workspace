@@ -121,7 +121,7 @@ def notion_page_additem(token,pageid,title=None,content=None):
     else:
         print(f"Error {response.status_code}: {response.text}")
     
-def notion_block_add(token,blockid):
+def notion_block_add(token,blockid,title,content):
     
     endpoint = "https://api.notion.com/v1/pages"  #f"https://api.notion.com/v1/{blockid}"
     headers = {
@@ -134,7 +134,7 @@ def notion_block_add(token,blockid):
 	"parent": { "database_id": blockid },
 	"properties": {
 		"title": {
-      "title": [{ "type": "text", "text": { "content": "B note from your pals at Notion" } }]
+      "title": [{ "type": "text", "text": { "content": title } }]
 		},
         "Date": {  # Assuming you have a date property named "Date"
                 "date": {
@@ -147,7 +147,7 @@ def notion_block_add(token,blockid):
       "object": "block",
       "type": "paragraph",
       "paragraph": {
-        "rich_text": [{ "type": "text", "text": { "content": "You made this page using the Notion API. Pretty cool, huh? We hope you enjoy building with us." } }]
+        "rich_text": [{ "type": "text", "text": { "content": content } }]
       }
     }
   ]
@@ -161,7 +161,7 @@ def notion_block_add(token,blockid):
         
 
 
-
+#add uper to a database
 def notion_database_add(token,parentid):
     
     endpoint = "https://api.notion.com/v1/databases/"
