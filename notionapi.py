@@ -66,7 +66,7 @@ def notion_page_detail(token,pageid):
     else:
         print(f"Error {response.status_code}: {response.text}")
     
-def notion_page_additem(token,pageid,title,content):
+def notion_page_additem(token,pageid,title=None,content=None):
     parent_database_id = pageid  # Replace with your database ID
     endpoint = "https://api.notion.com/v1/pages"
     headers = {
@@ -77,7 +77,7 @@ def notion_page_additem(token,pageid,title,content):
     
     today_str = datetime.now().strftime('%Y-%m-%d')
 
-    # Define the request payload
+
 # Request payload
     payload = {
         "parent": {"database_id": pageid},
@@ -97,10 +97,19 @@ def notion_page_additem(token,pageid,title,content):
             #         {"id": pageid}
             #     ]
             # }
-            "text":{
-                "type":"text",
-                "text":{"act":content}
-            }
+            'Text': {'id': 'K%40tv',
+                          'rich_text': [{'annotations': {'bold': False,
+                                                         'code': False,
+                                                         'color': 'default',
+                                                         'italic': False,
+                                                         'strikethrough': False,
+                                                         'underline': False},
+                                         'href': None,
+                                         'plain_text': 'this is a test ',
+                                         'text': {'content': content,
+                                                  'link': None},
+                                         'type': 'text'}],
+                          'type': 'rich_text'}
         }
     }
 
@@ -112,13 +121,106 @@ def notion_page_additem(token,pageid,title,content):
     else:
         print(f"Error {response.status_code}: {response.text}")
     
+def notion_block_add(token,blockid):
     
+    endpoint = "https://api.notion.com/v1/pages"  #f"https://api.notion.com/v1/{blockid}"
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Notion-Version": "2021-08-16",  # Use the version you're working with; check Notion's API documentation for the latest
+        "Content-Type": "application/json"
+    }
+    today_str = datetime.now().strftime('%Y-%m-%d')
+    payload = {
+	"parent": { "database_id": blockid },
+	"properties": {
+		"title": {
+      "title": [{ "type": "text", "text": { "content": "B note from your pals at Notion" } }]
+		},
+        "Date": {  # Assuming you have a date property named "Date"
+                "date": {
+                    "start": today_str,
+                }
+            },
+	},
+	"children": [
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{ "type": "text", "text": { "content": "You made this page using the Notion API. Pretty cool, huh? We hope you enjoy building with us." } }]
+      }
+    }
+  ]
+}
+    response = requests.post(endpoint, headers=headers, json=payload)
+
+    if response.status_code == 200:
+        print("Successfully added item 'a'")
+    else:
+        print(f"Error {response.status_code}: {response.text}")
+        
+
+
+
+def notion_database_add(token,parentid):
+    
+    endpoint = "https://api.notion.com/v1/databases/"
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Notion-Version": "2021-08-16",  # Use the version you're working with; check Notion's API documentation for the latest
+        "Content-Type": "application/json"
+    }
+    today_str = datetime.now().strftime('%Y-%m-%d')
+
+    payload = {
+    "parent": {
+      "type": "database_id",
+      "database_id": parentid,
+    },
+    "title": [
+        {
+            "type": "text",
+            "text": {
+                "content": "Grocery List",
+                "link": None
+            }
+        }
+    ],
+    "properties": {
+        "Name": {
+            "title": {}
+        },
+        "Description": {
+            "rich_text": {}
+        },
+        "In stock": {
+            "checkbox": {}
+        },
+        "Price": {
+            "number": {
+                "format": "dollar"
+            }
+        },
+        "Last ordered": {
+            "date": {}
+        },
+
+    },
+
+}
+    response = requests.post(endpoint, headers=headers, json=payload)
+
+    if response.status_code == 200:
+        print("Successfully added createbase 'a'")
+    else:
+        print(f"Error {response.status_code}: {response.text}")        
+        
     
 if __name__ == "__main__":
     status,token = notion_token()
     print(status,token)
     #pageid = "780d7bfd44a64a37bcb21c5f5278053e"
     pageid = "780d7bfd44a64a37bcb21c5f5278053e"
-    notion_page_additem(token=token,pageid=pageid,title=1,content=2)
-    #notion_page_detail(token=token,pageid=pageid)
+    #notion_block_add(token=token,blockid=pageid)
     
+    notion_database_add(token=token,parentid=pageid)
