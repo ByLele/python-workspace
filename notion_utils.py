@@ -63,8 +63,36 @@ class App(object):
         return notion.databases.create(
             parent=parent, title=title, properties=properties, icon=icon
         )
-    def db_add_col(self,)->dict:
-        pass
+    
+    def db_add_col(self,notion,parent_id,title,desc,url,publishat)->dict:
+                
+        print(f"\n\add database '{parent_id}' col..")
+        properties = {
+            "Name": {"title": {"content":title}},  # This is a required property
+            "Description": {"rich_text": {"content":desc}},
+            "In stock": {"checkbox": {}},
+            "URL": {"rich_text": {"content":url}},
+            "status group": {
+                "select": {
+                        {"name": "🍎 no start", "color": "red"},
+                }
+            },
+            "publishAt": {"date":{"start":publishat}},
+            "Last ordered": {"date": {}},
+            "URL":{"rich_text":{}},
+            "Store availability": {
+                "type": "multi_select",
+                "multi_select": {
+                        {"name": "po", "color": "gray"},
+                },
+            },
+            "+1": {"people": {}},
+            "Photo": {"files": {}},
+        }
+        parent = {"type": "page_id", "page_id": parent_id}
+        return notion.databases.create(
+            parent=parent, properties=properties
+        )
 
 
 
@@ -105,5 +133,9 @@ if __name__ == "__main__":
     app = App()
     notion = app.new_client(token=app.token)
     pg_id = "317cdbedcd35469c90b4854fe3f053d7"
-    res = app.create_database(notion=notion,parent_id=pg_id,db_name="YT databases")
+    #res = app.create_database(notion=notion,parent_id=pg_id,db_name="YT databases")
+    
+    parent = "90cc1a489ec14a78ae14a8de4abcabb7"
+    
+    res = app.db_add_col(notion=notion,parent_id=parent ,title="aaa",desc="aaaa",url="http://localhost",publishat="aaa")
     pprint(res)
