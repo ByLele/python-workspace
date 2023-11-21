@@ -206,7 +206,7 @@ if __name__ == "__main__":
         act.append({"title":item["snippet"].get("title")})
         act.append({"description":item.get("snippet").get("description")})
         act.append({"url":item["snippet"]["thumbnails"]["default"]["url"]})
-        act.append({"time":item["snippet"].get("publishedAt")})
+        act.append({"publishedAt":item["snippet"].get("publishedAt")})
         act_list.append(act)  
           
     uper_activities['video_list'] = act_list

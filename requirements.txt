@@ -1,0 +1,7 @@
+google
+google_auth_oauthlib
+google-auth-oauthlib
+notion_client
+request
+yaml
+google-api-python-client

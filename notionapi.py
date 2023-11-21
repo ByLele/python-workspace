@@ -164,7 +164,7 @@ def notion_block_add(token,blockid,title,content):
 #add uper to a database
 def notion_database_add(token,parentid):
     
-    endpoint = "https://api.notion.com/v1/databases/"
+    endpoint = "https://api.notion.com/v1/pages"#f"https://api.notion.com/v1/databases/{parentid}"
     headers = {
         "Authorization": f"Bearer {token}",
         "Notion-Version": "2021-08-16",  # Use the version you're working with; check Notion's API documentation for the latest
@@ -177,32 +177,15 @@ def notion_database_add(token,parentid):
       "type": "database_id",
       "database_id": parentid,
     },
-    "title": [
-        {
-            "type": "text",
-            "text": {
-                "content": "Grocery List",
-                "link": None
-            }
-        }
-    ],
     "properties": {
-        "Name": {
-            "title": {}
+        "UP": {
+            "title":[{"text":{"content":"tomato"} }]
         },
-        "Description": {
-            "rich_text": {}
-        },
-        "In stock": {
-            "checkbox": {}
-        },
-        "Price": {
-            "number": {
-                "format": "dollar"
-            }
+        "news": {
+            "text": {"content":"aaaaaaaaaaaaaaa"}
         },
         "Last ordered": {
-            "date": {}
+            "date": {"date":today_str}
         },
 
     },
@@ -220,7 +203,9 @@ if __name__ == "__main__":
     status,token = notion_token()
     print(status,token)
     #pageid = "780d7bfd44a64a37bcb21c5f5278053e"
-    pageid = "780d7bfd44a64a37bcb21c5f5278053e"
-    #notion_block_add(token=token,blockid=pageid)
-    
+    pageid = "780d7bfd44a64a37bcb21c5f5278053e" #ps test page
+    #notion_block_add(token=token,blockid=pageid,title="11.17",content="1717171717171717171")
+    pageid = "e7ef2f6346d44a48a012c487500243d4"
+    pageid = "e217cac1b34241b0ab324e271fd5e4d7"
+    pageid = "9234a7bc1ee74b7e8de917da5783179c"
     notion_database_add(token=token,parentid=pageid)
