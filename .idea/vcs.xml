@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/notion-sdk-js/notion-sdk-js" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/notion-sdk-js/notion-sdk-js/examples/intro-to-notion-api/node_modules/@notionhq/client" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/notionapi" vcs="Git" />
   </component>
 </project>

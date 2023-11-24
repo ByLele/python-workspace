@@ -1,127 +1,64 @@
-('kind', 'youtube#SubscriptionListResponse')
-('etag', 'IewweB1XogzNBoXLKmL0JA66vPw')
-('pageInfo', {'resultsPerPage': 50, 'totalResults': 4})
-('items',
- [{'etag': '52rlpPOhLc9JbcCNPduNuhAxKOs',
-   'id': '610CU-_s3CSrUtXB71UyXoqemNWUk9NHOYzG408VRv8',
-   'kind': 'youtube#subscription',
-   'snippet': {'channelId': 'UCOBfDx-6FjZWlhvbRa_hyMg',
-               'description': 'Dutchberry Sheriffs Office (DBSO) is a YouTube '
-                              'show by Patty Mayo. Set in fictional '
-                              'Dutchberry, it features Patty and his team of '
-                              "actors as 'deputies,' chasing actors playing "
-                              "'fugitives.' Uniquely, the 'fugitives' have "
-                              'incentives to escape and carry weapons that can '
-                              "slow, intimidate or stop the 'deputies,' adding "
-                              'tension and excitement. DBSO is unscripted, '
-                              'with actors improvising actions and dialogue, '
-                              'creating unpredictability. The series is full '
-                              'of intense chases, confrontations, and stunts, '
-                              'sometimes causing injuries. Importantly, DBSO '
-                              'is solely for entertainment. The performers are '
-                              'actors, not real officers, the Dutchberry '
-                              'Sheriffs Office is purely fictional and the '
-                              'scenarios are staged. The stunts can be '
-                              "dangerous and shouldn't be recreated or "
-                              'reenacted at home.',
-               'publishedAt': '2023-10-12T11:54:39.95752Z',
-               'resourceId': {'channelId': 'UCEYLdM2bdhmw-TS3c0TjFNw',
-                              'kind': 'youtube#channel'},
-               'thumbnails': {'default': {'url': 'https://yt3.ggpht.com/ytc/APkrFKaUa016qyYXfvZ9amtFcBaUXcHdOooG7tH18QXJCw=s88-c-k-c0x00ffffff-no-rj'},
-                              'high': {'url': 'https://yt3.ggpht.com/ytc/APkrFKaUa016qyYXfvZ9amtFcBaUXcHdOooG7tH18QXJCw=s800-c-k-c0x00ffffff-no-rj'},
-                              'medium': {'url': 'https://yt3.ggpht.com/ytc/APkrFKaUa016qyYXfvZ9amtFcBaUXcHdOooG7tH18QXJCw=s240-c-k-c0x00ffffff-no-rj'}},
-               'title': 'Patty Mayo'}},
-  {'etag': 'EsmUhwfvgjCSKcB5KDKpxX3Em1o',
-   'id': '610CU-_s3CSrUtXB71UyXvCgKGKnMiARdE99RjiNMk4',
-   'kind': 'youtube#subscription',
-   'snippet': {'channelId': 'UCOBfDx-6FjZWlhvbRa_hyMg',
-               'description': "Welcome � I've been creating beauty, style, "
-                              'travel, and home content over the years and in '
-                              '2020 I became the founder of Monday Born, your '
-                              'new favorite skincare brand. Make yourself at '
-                              "home, happy you're here!",
-               'publishedAt': '2023-10-12T11:54:38.940831Z',
-               'resourceId': {'channelId': 'UCojExR87u5xNXSkrJ26ORMA',
-                              'kind': 'youtube#channel'},
-               'thumbnails': {'default': {'url': 'https://yt3.ggpht.com/ytc/APkrFKZAuoMnFnOOrlwLr6_VUkNKWTTPTiKRCgVqx79Cdg=s88-c-k-c0x00ffffff-no-rj'},
-                              'high': {'url': 'https://yt3.ggpht.com/ytc/APkrFKZAuoMnFnOOrlwLr6_VUkNKWTTPTiKRCgVqx79Cdg=s800-c-k-c0x00ffffff-no-rj'},
-                              'medium': {'url': 'https://yt3.ggpht.com/ytc/APkrFKZAuoMnFnOOrlwLr6_VUkNKWTTPTiKRCgVqx79Cdg=s240-c-k-c0x00ffffff-no-rj'}},
-               'title': 'Teni Panosian'}},
-  {'etag': 'vZMg4aa4ur1iw6WsgNgGwRERiMs',
-   'id': '610CU-_s3CSrUtXB71UyXtVGVvJrwee8CWp9UFgQdJQ',
-   'kind': 'youtube#subscription',
-   'snippet': {'channelId': 'UCOBfDx-6FjZWlhvbRa_hyMg',
-               'description': 'Hey my names Tasmin, but you can call me Taz. \n'
-                              '\n'
-                              'I create beauty and fashion videos but my main '
-                              'goal is to promote inner beauty ♥ I hope my '
-                              'channel inspires you & you join the famila \n'
-                              '\n'
-                              'Love ya even if you dont know it yet! \n'
-                              '\n'
-                              'Tasmin \n'
-                              '\n'
-                              "Follow me so we can chat all day er'day \n"
-                              '\n'
-                              'Tumblr-http://r-e-a-d-my-mind.tumblr.com/\n'
-                              'twitter-https://twitter.com/Crystalbeauty9\n'
-                              'instagram-https://www.instagram.com/tasdhaliwal\n'
-                              '\n'
-                              'For business inquires contact me at: '
-                              'tasmindhaliwal@outlook.com \n'
-                              '\n'
-                              'xoxoxo',
-               'publishedAt': '2023-10-12T11:54:37.401437Z',
-               'resourceId': {'channelId': 'UCxOeBwl01LMHuXpP3CpJfCw',
-                              'kind': 'youtube#channel'},
-               'thumbnails': {'default': {'url': 'https://yt3.ggpht.com/ytc/APkrFKbZPJzJxAjUJ3ByVQ7_mfd_PgZsRlPsJZhQu8y-wg=s88-c-k-c0x00ffffff-no-rj'},
-                              'high': {'url': 'https://yt3.ggpht.com/ytc/APkrFKbZPJzJxAjUJ3ByVQ7_mfd_PgZsRlPsJZhQu8y-wg=s800-c-k-c0x00ffffff-no-rj'},
-                              'medium': {'url': 'https://yt3.ggpht.com/ytc/APkrFKbZPJzJxAjUJ3ByVQ7_mfd_PgZsRlPsJZhQu8y-wg=s240-c-k-c0x00ffffff-no-rj'}},
-               'title': 'Tasmin Dhaliwal'}},
-  {'etag': '5grlTi9mrZeti-WdQV3Sl04fw9A',
-   'id': '610CU-_s3CSrUtXB71UyXguh5O-kDwzXyDhwbob3dt8',
-   'kind': 'youtube#subscription',
-   'snippet': {'channelId': 'UCOBfDx-6FjZWlhvbRa_hyMg',
-               'description': 'Naio Nails are proud to present a range of '
-                              'amazingly talented Nail Artists who bring '
-                              'inspirational and informative videos covering '
-                              'everything from preparation, nail tip '
-                              'application, sculptured nails, 3D Nail Art, '
-                              'Acrylic Nails and Gel Nails, creative nail '
-                              'designs, plus insider tips, tricks and '
-                              "how-to's. \n"
-                              '\n'
-                              'We guarantee there will be something to '
-                              'interest and entertain everybody from the '
-                              'budding nail technician to the competition '
-                              'level expert nail artist. \n'
-                              '\n'
-                              'Got a design idea? Let us know! Get in touch '
-                              'via Facebook, Comments, Twitter or Instagram.\n'
-                              '\n'
-                              'Products used in our videos are available from '
-                              'our website \n'
-                              'We ship to UK, Europe, USA and Canada plus many '
-                              'other locations! \n'
-                              '\n'
-                              'naio-nails.com\n'
-                              '\n'
-                              'Naio Nails\n'
-                              'Unit 2 Tralee Close\n'
-                              'Kirkleatham\n'
-                              'Redcar\n'
-                              'TS10 5SG\n'
-                              'United Kingdom.\n'
-                              '\n'
-                              'Viewer discretion advised due to occasional '
-                              'strong language.',
-               'publishedAt': '2023-10-12T11:54:36.447361Z',
-               'resourceId': {'channelId': 'UCtDtcvOyPm2jSAMtqeVPggA',
-                              'kind': 'youtube#channel'},
-               'thumbnails': {'default': {'url': 'https://yt3.ggpht.com/zThWmSY779PGCK4j4SSoO13cr9ciQjd6iEHlyJjOMzgP2IquQh_YhgSbRHGFiGHmiaRqXB8TCQ=s88-c-k-c0x
-00ffffff-no-rj'},
-                              'high': {'url': 'https://yt3.ggpht.com/zThWmSY779PGCK4j4SSoO13cr9ciQjd6iEHlyJjOMzgP2IquQh_YhgSbRHGFiGHmiaRqXB8TCQ=s800-c-k-c0x00
-ffffff-no-rj'},
-                              'medium': {'url': 'https://yt3.ggpht.com/zThWmSY779PGCK4j4SSoO13cr9ciQjd6iEHlyJjOMzgP2IquQh_YhgSbRHGFiGHmiaRqXB8TCQ=s240-c-k-c0x
-00ffffff-no-rj'}},
-               'title': 'Naio Nails'}}])
+{'+1': {'type': 'people',
+        'people': [],
+        },
+        'Description': {
+                                             'rich_text': [{'annotations': {'bold': False,
+                                                                            'code': False,
+                                                                            'color': 'default',
+                                                                            'italic': False,
+                                                                            'strikethrough': False,
+                                                                            'underline': False},
+                                                            'href': None,
+                                                            'plain_text': 'a',
+                                                            'text': {'content': 'a',
+                                                                     'link': None},
+                                                            'type': 'text'}],
+                                             'type': 'rich_text'},
+        'In stock': {'checkbox': False,
+                                          'type': 'checkbox'},
+        'Last ordered': {'date': None,
+                                              'type': 'date'},
+        'Name': {'title': [{'annotations': {'bold': False,
+                                                                 'code': False,
+                                                                 'color': 'default',
+                                                                 'italic': False,
+                                                                 'strikethrough': False,
+                                                                 'underline': False},
+                                                 'href': None,
+                                                 'plain_text': 'qwertyuiop',
+                                                 'text': {'content': 'qwertyuiop',
+                                                          'link': None},
+                                                 'type': 'text'}],
+                                      'type': 'title'},
+        'Photo': {'files': [],
+                                       'type': 'files'},
+        'Store availability': {
+                                                    'multi_select': [{'color': 'blue',
+                                                                      'id': '60f1bd37-f61c-4fd4-a1c3-5753dec4e266',
+                                                                      'name': 'eo'},
+                                                                     {'color': 'gray',
+                                                                      'id': '0ddf221e-bc00-428a-ab61-19a7daedc51e',
+                                                                      'name': 'po'}],
+                                                    'type': 'multi_select'},
+        'URL': {
+                                     'rich_text': [{'annotations': {'bold': False,
+                                                                    'code': False,
+                                                                    'color': 'default',
+                                                                    'italic': False,
+                                                                    'strikethrough': False,
+                                                                    'underline': False},
+                                                    'href': None,
+                                                    'plain_text': 'aaa',
+                                                    'text': {'content': 'aaa',
+                                                             'link': None},
+                                                    'type': 'text'}],
+                                     'type': 'rich_text'},
+        'publishAt': {'date': {'end': None,
+                                                    'start': '2023-11-14',
+                                                    'time_zone': None},
+                                           'type': 'date'},
+        'status group': {
+                                              'select': {'color': 'red',
+                                                         'id': 'b1436b93-bed9-4593-b1b8-4d4228568df0',
+                                                         'name': '🍎 no start'},
+                                              'type': 'select'}}
