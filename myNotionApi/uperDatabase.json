@@ -1,0 +1,115 @@
+{
+  "+1": {
+    "type": "people",
+    "people": []
+  },
+  "Description": {
+    "rich_text": [
+      {
+        "annotations": {
+          "bold": "false",
+          "code": "false",
+          "color": "default",
+          "italic": "false",
+          "strikethrough": "false",
+          "underline": "false"
+        },
+        "href": "null",
+        "plain_text": "a",
+        "text": {
+          "content": "a",
+          "link": "null"
+        },
+        "type": "text"
+      }
+    ],
+    "type": "rich_text"
+  },
+  "In stock": {
+    "checkbox": "false",
+    "type": "checkbox"
+  },
+  "Last ordered": {
+    "date": "null",
+    "type": "date"
+  },
+  "Name": {
+    "title": [
+      {
+        "annotations": {
+          "bold": "false",
+          "code": "false",
+          "color": "default",
+          "italic": "false",
+          "strikethrough": "false",
+          "underline": "false"
+        },
+        "href": "null",
+        "plain_text": "qwertyuiop",
+        "text": {
+          "content": "qwertyuiop",
+          "link": "null"
+        },
+        "type": "text"
+      }
+    ],
+    "type": "title"
+  },
+  "Photo": {
+    "files": [],
+    "type": "files"
+  },
+  "Store availability": {
+    "multi_select": [
+      {
+        "color": "blue",
+        "id": "60f1bd37-f61c-4fd4-a1c3-5753dec4e266",
+        "name": "eo"
+      },
+      {
+        "color": "gray",
+        "id": "0ddf221e-bc00-428a-ab61-19a7daedc51e",
+        "name": "po"
+      }
+    ],
+    "type": "multi_select"
+  },
+  "URL": {
+    "rich_text": [
+      {
+        "annotations": {
+          "bold": "false",
+          "code": "false",
+          "color": "default",
+          "italic": "false",
+          "strikethrough": "false",
+          "underline": "false"
+        },
+        "href": "null",
+        "plain_text": "aaa",
+        "text": {
+          "content": "aaa",
+          "link": "null"
+        },
+        "type": "text"
+      }
+    ],
+    "type": "rich_text"
+  },
+  "publishAt": {
+    "date": {
+      "end": "null",
+      "start": "2023-11-14",
+      "time_zone": "null"
+    },
+    "type": "date"
+  },
+  "status group": {
+    "select": {
+      "color": "red",
+      "id": "b1436b93-bed9-4593-b1b8-4d4228568df0",
+      "name": "🍎 no start"
+    },
+    "type": "select"
+  }
+}

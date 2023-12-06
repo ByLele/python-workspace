@@ -1,11 +1,13 @@
-import os 
-import pprint
-
-import time
+import  os
 import json
 from datetime import datetime, timedelta
 import requests
 from pprint import pprint
+from uper_data_reader import uper_content_load
+from utils.notion_util import _json
+from myNotionApi.uper_data_reader import uper_data_obj
+
+
 class notionBase(object):
     def __init__(self):
         self.notion_token = self.notion_token()
@@ -15,7 +17,7 @@ class notionBase(object):
         pass
     @classmethod
     def notion_token(self):
-        with open(".\\env.json") as f:
+        with open("../env.json") as f:
             r = json.load(f)
             print(r)
             if r.get("NOTION_KEY"):
@@ -25,7 +27,7 @@ class notionBase(object):
 
 
 def notion_token():
-    with open(".\\env.json") as f:
+    with open("../env.json") as f:
         r = json.load(f)
         print(r)
         if r.get("NOTION_KEY"):
@@ -33,7 +35,7 @@ def notion_token():
         else:
             return False, "Get notoken failed"
 def notion_pageid():
-    with open(".\\env.json") as f:
+    with open("../env.json") as f:
         r = json.load(f)
         print(r)
         if r.get("NOTION_PAGE_ID"):
@@ -208,7 +210,7 @@ def readDatabase(databaseID, headers):
     print(res.status_code)
         # print(res.text)
 
-    with open('./full-properties.json', 'w', encoding='utf8') as f:
+    with open('../full-properties.json', 'w', encoding='utf8') as f:
         json.dump(data, f, ensure_ascii=False)
     return data
 
@@ -227,6 +229,8 @@ def db_add_page(databaseID, headers,properties):
     # print(res.text)
 
     return data
+
+
 
 
 if __name__ == "__main__":
@@ -262,8 +266,7 @@ if __name__ == "__main__":
                                                                             'strikethrough': False,
                                                                             'underline': False},
                                                             'href': None,
-                                                            'plain_text': 'a',
-                                                            'text': {'content': 'a',
+                                                            'text': {'content': 'this is desc',
                                                                      'link': None},
                                                             'type': 'text'}],
                                              'type': 'rich_text'},
@@ -278,8 +281,7 @@ if __name__ == "__main__":
                                                                  'strikethrough': False,
                                                                  'underline': False},
                                                  'href': None,
-                                                 'plain_text': 'qwertyuiop',
-                                                 'text': {'content': 'qwertyuiop',
+                                                 'text': {'content': '2222222222222',
                                                           'link': None},
                                                  'type': 'text'}],
                                       'type': 'title'},
@@ -307,7 +309,7 @@ if __name__ == "__main__":
                                                     'type': 'text'}],
                                      'type': 'rich_text'},
         'publishAt': {'date': {'end': None,
-                                                    'start': '2023-11-14',
+                                                    'start': '2023-12-05',
                                                     'time_zone': None},
                                            'type': 'date'},
         'status group': {
@@ -315,6 +317,15 @@ if __name__ == "__main__":
                                                          'id': 'b1436b93-bed9-4593-b1b8-4d4228568df0',
                                                          'name': '🍎 no start'},
                                               'type': 'select'}}
-    res = db_add_page(databaseID=databaseID, headers=headers,properties=ppp)
+    json_data = uper_data_obj
+    _json(json_data,new_value="desc",json_path="$.Description.rich_text[0].text.content")
+    _json(json_data,new_value="Name Title",json_path="$.Name.title[0].text.content",)
+    _json(json_data,new_value="URL",json_path="$.URL.rich_text[0].text.content")
+    _json(json_data,new_value= "2013-12-06", json_path="$.publishAt.date.start")
 
-    pprint(res)
+
+    pprint(json_data)
+
+    res = db_add_page(databaseID=databaseID, headers=headers,properties=json_data)
+
+    print(res)

@@ -5,3 +5,4 @@ notion_client
 request
 yaml
 google-api-python-client
+jsonpath_ng
