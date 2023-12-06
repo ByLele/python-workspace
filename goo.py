@@ -11,7 +11,6 @@ import pprint
 import json
 import yaml
 import sys
-from notionapi import notion_token,notion_page_additem,notion_block_add
 SCOPES = ["https://www.googleapis.com/auth/youtube.force-ssl"]
 import logging
 logging.basicConfig(
@@ -136,19 +135,25 @@ def uper_activities(channelId:str)-> dict:
         logger.info("no activities")
     uper_activities["uper"] = activities_list[0]["snippet"].get("channelTitle","")
     act_list = []
-    act = []
     title = []
     for item in activities_list:
         if item["snippet"].get("title") in title:
             continue
         if item["snippet"].get("type") != "upload":
             continue
+        
         title.append(item["snippet"].get("title"))
-        act.append({"title":item["snippet"].get("title")})
-        act.append({"description":item.get("snippet").get("description")})
-        act.append({"url":item["snippet"]["thumbnails"]["default"]["url"]})
-        act.append({"time":item["snippet"].get("publishedAt")})
-        act_list.append(act)  
+    
+        date_string = item["snippet"].get("publishedAt")
+        date_string = date_string[:10]  
+        upload={
+            "title":item["snippet"].get("title"),
+            "description":item.get("snippet").get("description"),
+            "url":item["snippet"]["thumbnails"]["default"]["url"],
+            "publishedAt":date_string
+        }
+
+        act_list.append(upload) 
           
     uper_activities['video_list'] = act_list
     return uper_activities
@@ -196,6 +201,7 @@ if __name__ == "__main__":
     uper_activities["uper"] = activities_list[0]["snippet"].get("channelTitle","")
     act_list = []
     act = []
+    upload = {}
     title = []
     for item in activities_list:
         if item["snippet"].get("title") in title:
@@ -203,17 +209,23 @@ if __name__ == "__main__":
         if item["snippet"].get("type") != "upload":
             continue
         title.append(item["snippet"].get("title"))
-        act.append({"title":item["snippet"].get("title")})
-        act.append({"description":item.get("snippet").get("description")})
-        act.append({"url":item["snippet"]["thumbnails"]["default"]["url"]})
-        act.append({"publishedAt":item["snippet"].get("publishedAt")})
-        act_list.append(act)  
+        date_string = item["snippet"].get("publishedAt")
+        date_string = date_string[:10]  
+        upload={
+            "title":item["snippet"].get("title"),
+            "description":item.get("snippet").get("description"),
+            "url":item["snippet"]["thumbnails"]["default"]["url"],
+            "publishedAt":date_string
+        }
+
+        act_list.append(upload)  
           
     uper_activities['video_list'] = act_list
     
     pprint.pprint(uper_activities)
     title = uper_activities.get("uper")
-    _,token = notion_token()
-    pageid = "780d7bfd44a64a37bcb21c5f5278053e"
-    content = str(uper_activities)
-    notion_block_add(token=token,blockid=pageid,title=title,content=content)
+    
+    # _,token = notion_token()
+    # pageid = "780d7bfd44a64a37bcb21c5f5278053e"
+    # content = str(uper_activities)
+    # notion_block_add(token=token,blockid=pageid,title=title,content=content)
