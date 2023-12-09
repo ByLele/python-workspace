@@ -3,7 +3,9 @@ import json
 from datetime import datetime, timedelta
 import requests
 from pprint import pprint
-from uper_data_reader import uper_content_load
+
+
+
 from utils.notion_util import _json
 from myNotionApi.uper_data_reader import uper_data_obj
 
