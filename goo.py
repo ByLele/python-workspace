@@ -11,7 +11,20 @@ import pprint
 import json
 import yaml
 import sys
+
+from utils.notion_util import _json
+from myNotionApi.uper_data_reader import uper_data_obj
+from myNotionApi.notionapi import db_add_page
+
 SCOPES = ["https://www.googleapis.com/auth/youtube.force-ssl"]
+token = 'secret_fz8hGuVnnQsTbifpRhXx0SCAfNiqSSPBn7IGfZKh0ww'
+databaseID = "90cc1a489ec14a78ae14a8de4abcabb7"
+headers = {
+        "Authorization": "Bearer " + token,
+        "Content-Type": "application/json",
+        "Notion-Version": "2022-02-22"
+    }
+    
 import logging
 logging.basicConfig(
     level=logging.DEBUG,
@@ -159,7 +172,24 @@ def uper_activities(channelId:str)-> dict:
     return uper_activities
 
 def notion_sync(uper:dict):
-    pass
+    if uper and uper.get("uper") and uper.get("video_list"):
+        
+        
+        video_list = uper.get("video_list") 
+        uper = uper.get("uper")
+        json_data = uper_data_obj
+        for item in video_list:  
+            
+            _json(json_data,new_value=item.get("title",""),json_path="$.Description.rich_text[0].text.content")
+            _json(json_data,new_value=uper,json_path="$.Name.title[0].text.content",)
+            _json(json_data,new_value=item.get("url"),json_path="$.URL.rich_text[0].text.content")
+            _json(json_data,new_value= item.get("publishedAt"), json_path="$.publishAt.date.start")
+
+            #pprint(json_data)
+
+            res = db_add_page(databaseID=databaseID, headers=headers,properties=json_data)
+
+            print(res)
     
 if __name__ == "__main__":
         # authenticate to YouTube API
@@ -225,6 +255,7 @@ if __name__ == "__main__":
     pprint.pprint(uper_activities)
     title = uper_activities.get("uper")
     
+    notion_sync(uper=uper_activities)
     # _,token = notion_token()
     # pageid = "780d7bfd44a64a37bcb21c5f5278053e"
     # content = str(uper_activities)
