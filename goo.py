@@ -224,7 +224,7 @@ def main():
 
     for item in res:
         uper_act = uper_activities(youtube=youtube,channelId=item)
-        time.sleep(100)
+        time.sleep(20)
         notion_sync(uper=uper_act)
 
 if __name__ == "__main__":

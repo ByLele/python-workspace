@@ -17,3 +17,8 @@
 2023-12-10 12:30:15.203 | INFO     | __main__:sub_sync:187 - uper folder sync sub data 
 2023-12-10 12:30:17.440 | INFO     | __main__:sub_sync:193 - sync_sub write yaml success
 2023-12-10 12:30:18.164 | INFO     | __main__:yaml_reader:134 - channelId read success
+2023-12-10 13:17:28.963 | ERROR    | __main__:uper_activities:180 - activity_channel error
+2023-12-10 14:32:39.375 | ERROR    | __main__:uper_activities:180 - activity_channel error
+2023-12-10 15:09:03.665 | ERROR    | __main__:uper_activities:180 - activity_channel error
+2023-12-10 15:47:22.136 | ERROR    | __main__:uper_activities:180 - activity_channel error
+2023-12-10 16:04:22.191 | ERROR    | __main__:uper_activities:180 - activity_channel error
