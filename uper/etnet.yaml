@@ -1,5 +1,5 @@
 author: etnet
-etag: ETBf6APanudZ6pA7sGv3761-bJQ
+etag: aJXTV68g_zn37FPkBSPjwkRolM4
 kind: youtube#subscription
 snippet:
   channelId: UCENUJD9ZsD0dDTdUYECoNsw
@@ -23,9 +23,9 @@ snippet:
     kind: youtube#channel
   thumbnails:
     default:
-      url: https://yt3.ggpht.com/ytc/APkrFKY3I-z2KR02wmadV8BUq92Bthcimv8EdR8vB8YYZg=s88-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/di5GVfR92Vxlx9Fwwh_ueFuNORW6FH9U1fZOk5c_wxhPYOTllgpppU_9ehiT7h-KFD7X_ZkTB6c=s88-c-k-c0x00ffffff-no-rj
     high:
-      url: https://yt3.ggpht.com/ytc/APkrFKY3I-z2KR02wmadV8BUq92Bthcimv8EdR8vB8YYZg=s800-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/di5GVfR92Vxlx9Fwwh_ueFuNORW6FH9U1fZOk5c_wxhPYOTllgpppU_9ehiT7h-KFD7X_ZkTB6c=s800-c-k-c0x00ffffff-no-rj
     medium:
-      url: https://yt3.ggpht.com/ytc/APkrFKY3I-z2KR02wmadV8BUq92Bthcimv8EdR8vB8YYZg=s240-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/di5GVfR92Vxlx9Fwwh_ueFuNORW6FH9U1fZOk5c_wxhPYOTllgpppU_9ehiT7h-KFD7X_ZkTB6c=s240-c-k-c0x00ffffff-no-rj
   title: etnet

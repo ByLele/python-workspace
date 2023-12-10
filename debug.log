@@ -1,0 +1,19 @@
+2023-12-10 00:31:05.908 | INFO     | __main__:yaml_reader:142 - channelId read success
+2023-12-10 00:33:45.493 | INFO     | __main__:sub_sync:191 - uper folder sync sub data 
+2023-12-10 00:33:46.157 | INFO     | __main__:yaml_reader:142 - channelId read success
+2023-12-10 00:37:26.103 | INFO     | __main__:sub_sync:191 - uper folder sync sub data 
+2023-12-10 00:37:26.106 | INFO     | __main__:sub_sync:197 - sync_sub write yaml success
+2023-12-10 00:37:26.777 | INFO     | __main__:yaml_reader:142 - channelId read success
+2023-12-10 00:38:23.197 | INFO     | __main__:sub_sync:191 - uper folder sync sub data 
+2023-12-10 00:38:23.199 | INFO     | __main__:sub_sync:197 - sync_sub write yaml success
+2023-12-10 00:38:23.849 | INFO     | __main__:yaml_reader:142 - channelId read success
+2023-12-10 00:47:04.869 | INFO     | __main__:sub_sync:183 - uper folder sync sub data 
+2023-12-10 00:47:05.816 | INFO     | __main__:sub_sync:189 - sync_sub write yaml success
+2023-12-10 00:47:06.516 | INFO     | __main__:yaml_reader:134 - channelId read success
+2023-12-10 10:41:18.895 | INFO     | __main__:sub_sync:186 - uper folder sync sub data 
+2023-12-10 10:41:19.849 | INFO     | __main__:sub_sync:192 - sync_sub write yaml success
+2023-12-10 10:41:20.583 | INFO     | __main__:yaml_reader:134 - channelId read success
+2023-12-10 12:09:43.842 | ERROR    | __main__:uper_activities:150 - activity_channel error
+2023-12-10 12:30:15.203 | INFO     | __main__:sub_sync:187 - uper folder sync sub data 
+2023-12-10 12:30:17.440 | INFO     | __main__:sub_sync:193 - sync_sub write yaml success
+2023-12-10 12:30:18.164 | INFO     | __main__:yaml_reader:134 - channelId read success

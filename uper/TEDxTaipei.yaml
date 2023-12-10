@@ -1,0 +1,18 @@
+author: TEDxTaipei
+etag: EQsM_RSY7Bd_8CHzJSRBNO19ZFE
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: ''
+  publishedAt: '2023-11-11T11:17:01.397724Z'
+  resourceId:
+    channelId: UCI-aslpo4ZZpatYyGs53DLw
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/ytc/APkrFKb-qvuDacc5XSlQ08aoG7RcomrP0mFRpvInAYU7vQ=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/ytc/APkrFKb-qvuDacc5XSlQ08aoG7RcomrP0mFRpvInAYU7vQ=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/ytc/APkrFKb-qvuDacc5XSlQ08aoG7RcomrP0mFRpvInAYU7vQ=s240-c-k-c0x00ffffff-no-rj
+  title: TEDxTaipei

@@ -1,0 +1,19 @@
+2023-12-10 00:31:05 | INFO | goo:yaml_reader:142 - channelId read success
+2023-12-10 00:33:45 | INFO | goo:sub_sync:191 - uper folder sync sub data 
+2023-12-10 00:33:46 | INFO | goo:yaml_reader:142 - channelId read success
+2023-12-10 00:37:26 | INFO | goo:sub_sync:191 - uper folder sync sub data 
+2023-12-10 00:37:26 | INFO | goo:sub_sync:197 - sync_sub write yaml success
+2023-12-10 00:37:26 | INFO | goo:yaml_reader:142 - channelId read success
+2023-12-10 00:38:23 | INFO | goo:sub_sync:191 - uper folder sync sub data 
+2023-12-10 00:38:23 | INFO | goo:sub_sync:197 - sync_sub write yaml success
+2023-12-10 00:38:23 | INFO | goo:yaml_reader:142 - channelId read success
+2023-12-10 00:47:04 | INFO | goo:sub_sync:183 - uper folder sync sub data 
+2023-12-10 00:47:05 | INFO | goo:sub_sync:189 - sync_sub write yaml success
+2023-12-10 00:47:06 | INFO | goo:yaml_reader:134 - channelId read success
+2023-12-10 10:41:18 | INFO | goo:sub_sync:186 - uper folder sync sub data 
+2023-12-10 10:41:19 | INFO | goo:sub_sync:192 - sync_sub write yaml success
+2023-12-10 10:41:20 | INFO | goo:yaml_reader:134 - channelId read success
+2023-12-10 12:09:43 | ERROR | goo:uper_activities:150 - activity_channel error
+2023-12-10 12:30:15 | INFO | goo:sub_sync:187 - uper folder sync sub data 
+2023-12-10 12:30:17 | INFO | goo:sub_sync:193 - sync_sub write yaml success
+2023-12-10 12:30:18 | INFO | goo:yaml_reader:134 - channelId read success

@@ -1,0 +1,24 @@
+author: 阿发bot
+etag: hSvlr1hlGjWg6j51b7ffATGd0nw
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: '我們都是這個時代里最孤獨的望星人。
+
+    我們之所以持久地凝視著這片夜空，看著那顆看起來不那麼大，不那麼亮的星星。
+
+    是因為我們內心無比堅定地相信：這顆星星它不是小，它只是離我們稍微遠了一點。
+
+    而它正在積蓄著力量，等待著重新煥發光芒，重建宇宙秩序的那一天。 '
+  publishedAt: '2023-11-12T14:48:28.407558Z'
+  resourceId:
+    channelId: UCvAD1cWOL6Cp0pKWTSYDZuQ
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/ZdUkUUQQENdMhCGUs4fsdGtip_hZcFHSxNv0MPfDqK-n9ZIPDWhXEIVR79v7ixSt3CsUK1rm=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/ZdUkUUQQENdMhCGUs4fsdGtip_hZcFHSxNv0MPfDqK-n9ZIPDWhXEIVR79v7ixSt3CsUK1rm=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/ZdUkUUQQENdMhCGUs4fsdGtip_hZcFHSxNv0MPfDqK-n9ZIPDWhXEIVR79v7ixSt3CsUK1rm=s240-c-k-c0x00ffffff-no-rj
+  title: 阿发bot

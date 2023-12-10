@@ -1,5 +1,5 @@
 author: Tesla
-etag: Vmh78nD5SwnUZX0uUOdfiCV7WIw
+etag: a9ZEFdqXI4SepQfOJNTxr7keVto
 kind: youtube#subscription
 snippet:
   channelId: UCENUJD9ZsD0dDTdUYECoNsw
@@ -11,9 +11,9 @@ snippet:
     kind: youtube#channel
   thumbnails:
     default:
-      url: https://yt3.ggpht.com/ytc/APkrFKb5JCzdpuNJqDUuoTiaxukXYosQS5pEOkvRqt7p4ts=s88-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/p89RToB7j2iu9BYhK2Zn6vLkxJXYC9cAbxfJ0eMvUd4jrsyRQtuYIvinn8N2H6utyeBKcrvlhSE=s88-c-k-c0x00ffffff-no-rj
     high:
-      url: https://yt3.ggpht.com/ytc/APkrFKb5JCzdpuNJqDUuoTiaxukXYosQS5pEOkvRqt7p4ts=s800-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/p89RToB7j2iu9BYhK2Zn6vLkxJXYC9cAbxfJ0eMvUd4jrsyRQtuYIvinn8N2H6utyeBKcrvlhSE=s800-c-k-c0x00ffffff-no-rj
     medium:
-      url: https://yt3.ggpht.com/ytc/APkrFKb5JCzdpuNJqDUuoTiaxukXYosQS5pEOkvRqt7p4ts=s240-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/p89RToB7j2iu9BYhK2Zn6vLkxJXYC9cAbxfJ0eMvUd4jrsyRQtuYIvinn8N2H6utyeBKcrvlhSE=s240-c-k-c0x00ffffff-no-rj
   title: Tesla
