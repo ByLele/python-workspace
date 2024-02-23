@@ -1,8 +1,12 @@
 import attr
 import requests
-import assert
+import urllib3
+import warnings
 from functools import wraps
 
+
+warnings.filterwarnings("ignore")
+urllib3.disable_warnings()
 
 @attr.s
 class HttpClient(requests.sessions):
