@@ -42,8 +42,8 @@ class HttpClient(requests.sessions):
         def _(self,*args,**kwargs):#此处值得注意
             if "vertify" not in kwargs:
                 kwargs['vertify'] = False
-            self.hook_req_handle()
-            res = func(*args,**kwargs)
+            _args,_kwargs = self.hook_req_handle(args,kwargs)
+            res = func(self,*_args,**_kwargs)
             self.hook_resp.handle()
             return res
         return _
