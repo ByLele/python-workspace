@@ -1,5 +1,5 @@
 author: The Economist
-etag: Uy62OKC4jIWKhTY1_mYydr2zhmc
+etag: hgSM_fmYx4HYt3gswc1B8Dg5Oy8
 kind: youtube#subscription
 snippet:
   channelId: UCENUJD9ZsD0dDTdUYECoNsw
@@ -23,9 +23,9 @@ snippet:
     kind: youtube#channel
   thumbnails:
     default:
-      url: https://yt3.ggpht.com/ytc/APkrFKbB-NpeXRYGfNMx3gXwfBgcvel5jcrB9LOxqLz_Q74=s88-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_k8DxrGdT8bhCH2dHwvgSjnjAvA6DiYuljJuhk6V4-vMtb4=s88-c-k-c0x00ffffff-no-rj
     high:
-      url: https://yt3.ggpht.com/ytc/APkrFKbB-NpeXRYGfNMx3gXwfBgcvel5jcrB9LOxqLz_Q74=s800-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_k8DxrGdT8bhCH2dHwvgSjnjAvA6DiYuljJuhk6V4-vMtb4=s800-c-k-c0x00ffffff-no-rj
     medium:
-      url: https://yt3.ggpht.com/ytc/APkrFKbB-NpeXRYGfNMx3gXwfBgcvel5jcrB9LOxqLz_Q74=s240-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_k8DxrGdT8bhCH2dHwvgSjnjAvA6DiYuljJuhk6V4-vMtb4=s240-c-k-c0x00ffffff-no-rj
   title: The Economist

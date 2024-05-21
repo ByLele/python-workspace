@@ -1,5 +1,5 @@
 author: Andrej Karpathy
-etag: 9j14Z8IC8-FNmAhA33nNv_k9yas
+etag: 9HQ4rP6tcxoByuQKeQF5X__lRng
 kind: youtube#subscription
 snippet:
   channelId: UCENUJD9ZsD0dDTdUYECoNsw
@@ -16,9 +16,9 @@ snippet:
     kind: youtube#channel
   thumbnails:
     default:
-      url: https://yt3.ggpht.com/ytc/APkrFKYFOSxGL4HypEGJ_1rOLkzUlT7qvOiflHFqKTonUrs=s88-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_nDvyq2NoPL626bk1IbxQ94SfQsD-B0qgZchghtQNkLWoEz=s88-c-k-c0x00ffffff-no-rj
     high:
-      url: https://yt3.ggpht.com/ytc/APkrFKYFOSxGL4HypEGJ_1rOLkzUlT7qvOiflHFqKTonUrs=s800-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_nDvyq2NoPL626bk1IbxQ94SfQsD-B0qgZchghtQNkLWoEz=s800-c-k-c0x00ffffff-no-rj
     medium:
-      url: https://yt3.ggpht.com/ytc/APkrFKYFOSxGL4HypEGJ_1rOLkzUlT7qvOiflHFqKTonUrs=s240-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_nDvyq2NoPL626bk1IbxQ94SfQsD-B0qgZchghtQNkLWoEz=s240-c-k-c0x00ffffff-no-rj
   title: Andrej Karpathy

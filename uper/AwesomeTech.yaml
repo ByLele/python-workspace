@@ -1,5 +1,5 @@
 author: AwesomeTech
-etag: rEq4D9GeyEeR4z8cMZG6usG0__k
+etag: 83QA7-0YXFC6jngCRod8voxAQdI
 kind: youtube#subscription
 snippet:
   channelId: UCENUJD9ZsD0dDTdUYECoNsw
@@ -16,9 +16,9 @@ snippet:
     kind: youtube#channel
   thumbnails:
     default:
-      url: https://yt3.ggpht.com/ytc/APkrFKamNeAbk0ynElb3GZgXHLIqXJ6tyIQ6iUsS3F1Thw=s88-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_nwXBumMN4I-BSUnPNVfjeH6g1Lu56mhUXPmizw8PkOm14=s88-c-k-c0x00ffffff-no-rj
     high:
-      url: https://yt3.ggpht.com/ytc/APkrFKamNeAbk0ynElb3GZgXHLIqXJ6tyIQ6iUsS3F1Thw=s800-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_nwXBumMN4I-BSUnPNVfjeH6g1Lu56mhUXPmizw8PkOm14=s800-c-k-c0x00ffffff-no-rj
     medium:
-      url: https://yt3.ggpht.com/ytc/APkrFKamNeAbk0ynElb3GZgXHLIqXJ6tyIQ6iUsS3F1Thw=s240-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_nwXBumMN4I-BSUnPNVfjeH6g1Lu56mhUXPmizw8PkOm14=s240-c-k-c0x00ffffff-no-rj
   title: AwesomeTech

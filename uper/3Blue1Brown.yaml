@@ -1,11 +1,11 @@
 author: 3Blue1Brown
-etag: KzjK4JYeUZnUUZ-VQGomY4-ebqg
+etag: Ezt8JXew6u2B1yYOBI-78wNGiKQ
 kind: youtube#subscription
 snippet:
   channelId: UCENUJD9ZsD0dDTdUYECoNsw
   description: 'My name is Grant Sanderson. Videos here cover a variety of topics
     in math, or adjacent fields like physics and CS, all with an emphasis on visualizing
-    the core ideas. To goal is to use animation to help elucidate and motivate otherwise
+    the core ideas. The goal is to use animation to help elucidate and motivate otherwise
     tricky topics, and for difficult problems to be made simple with changes in perspective.
 
 
@@ -16,9 +16,9 @@ snippet:
     kind: youtube#channel
   thumbnails:
     default:
-      url: https://yt3.ggpht.com/ytc/APkrFKa78JclPNY9Oh8Fy2b4v7PMDOKFcZcbKHum1tkd8A=s88-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_nFzZFPLxPZRHcE3SSwzdrbuWqfoWYwLAu0_2iO6blQYAU=s88-c-k-c0x00ffffff-no-rj
     high:
-      url: https://yt3.ggpht.com/ytc/APkrFKa78JclPNY9Oh8Fy2b4v7PMDOKFcZcbKHum1tkd8A=s800-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_nFzZFPLxPZRHcE3SSwzdrbuWqfoWYwLAu0_2iO6blQYAU=s800-c-k-c0x00ffffff-no-rj
     medium:
-      url: https://yt3.ggpht.com/ytc/APkrFKa78JclPNY9Oh8Fy2b4v7PMDOKFcZcbKHum1tkd8A=s240-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_nFzZFPLxPZRHcE3SSwzdrbuWqfoWYwLAu0_2iO6blQYAU=s240-c-k-c0x00ffffff-no-rj
   title: 3Blue1Brown

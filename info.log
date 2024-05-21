@@ -22,3 +22,14 @@
 2023-12-10 15:09:03 | ERROR | goo:uper_activities:180 - activity_channel error
 2023-12-10 15:47:22 | ERROR | goo:uper_activities:180 - activity_channel error
 2023-12-10 16:04:22 | ERROR | goo:uper_activities:180 - activity_channel error
+2023-12-10 16:47:03 | ERROR | goo:uper_activities:180 - activity_channel error
+2023-12-10 17:46:45 | ERROR | goo:uper_activities:180 - activity_channel error
+2023-12-10 19:01:13 | ERROR | goo:uper_activities:180 - activity_channel error
+2024-05-15 21:37:44 | INFO | goo:sub_sync:187 - uper folder sync sub data 
+2024-05-15 21:37:44 | INFO | goo:sub_sync:193 - sync_sub write yaml success
+2024-05-15 21:37:45 | INFO | goo:yaml_reader:134 - channelId read success
+2024-05-15 22:00:57 | ERROR | goo:uper_activities:180 - activity_channel error
+2024-05-15 22:43:42 | INFO | goo:sub_sync:187 - uper folder sync sub data 
+2024-05-15 22:43:43 | INFO | goo:sub_sync:193 - sync_sub write yaml success
+2024-05-15 22:43:44 | INFO | goo:yaml_reader:134 - channelId read success
+2024-05-15 23:07:03 | ERROR | goo:uper_activities:180 - activity_channel error

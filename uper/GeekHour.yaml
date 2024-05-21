@@ -1,0 +1,20 @@
+author: GeekHour
+etag: 9AIE6qA-A-ouLvex1Igyl6s3-GQ
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: '【GeekHour】高知识密度的精品免费公益教程。
+
+    公众号同名搜索GeekHour'
+  publishedAt: '2023-12-28T13:33:12.277303Z'
+  resourceId:
+    channelId: UCaHGGhmThVehDUapGxl7RVQ
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/AAEkeu0iBI9PcQeJGj5CcWNYTmP33WX8-GVQJ1QqppBwLt8MbrbeZ3VQEMNMuGu18TuZHAcOJA=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/AAEkeu0iBI9PcQeJGj5CcWNYTmP33WX8-GVQJ1QqppBwLt8MbrbeZ3VQEMNMuGu18TuZHAcOJA=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/AAEkeu0iBI9PcQeJGj5CcWNYTmP33WX8-GVQJ1QqppBwLt8MbrbeZ3VQEMNMuGu18TuZHAcOJA=s240-c-k-c0x00ffffff-no-rj
+  title: GeekHour

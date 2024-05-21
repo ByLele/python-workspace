@@ -1,5 +1,5 @@
 author: CppNuts
-etag: hzwr_5VU17omk3D6rlPHZAkSrxY
+etag: NJxdGWS3Rxli1ZW6Sf6mTWRNoqE
 kind: youtube#subscription
 snippet:
   channelId: UCENUJD9ZsD0dDTdUYECoNsw
@@ -16,9 +16,9 @@ snippet:
     kind: youtube#channel
   thumbnails:
     default:
-      url: https://yt3.ggpht.com/f-dtAK8aGrI5lUIF9XUtVpJd4UggBzq39cPy0Ic9HVd2y6S8TO3CBZZ0z4xfnTPWTsrU-Ssh=s88-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/X8dn-zUMrX2Ar_K-eWs65cDKvbqbLyd7NJRC0RznHqZUhImpZ9xIpQAdZJ9aoRbGZU08b9mkyS8=s88-c-k-c0x00ffffff-no-rj
     high:
-      url: https://yt3.ggpht.com/f-dtAK8aGrI5lUIF9XUtVpJd4UggBzq39cPy0Ic9HVd2y6S8TO3CBZZ0z4xfnTPWTsrU-Ssh=s800-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/X8dn-zUMrX2Ar_K-eWs65cDKvbqbLyd7NJRC0RznHqZUhImpZ9xIpQAdZJ9aoRbGZU08b9mkyS8=s800-c-k-c0x00ffffff-no-rj
     medium:
-      url: https://yt3.ggpht.com/f-dtAK8aGrI5lUIF9XUtVpJd4UggBzq39cPy0Ic9HVd2y6S8TO3CBZZ0z4xfnTPWTsrU-Ssh=s240-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/X8dn-zUMrX2Ar_K-eWs65cDKvbqbLyd7NJRC0RznHqZUhImpZ9xIpQAdZJ9aoRbGZU08b9mkyS8=s240-c-k-c0x00ffffff-no-rj
   title: CppNuts

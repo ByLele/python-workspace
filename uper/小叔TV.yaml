@@ -1,5 +1,5 @@
 author: 小叔TV
-etag: upmuHC3vIVMiEA2zKkEjax2KJgY
+etag: 9L9AFv8cg6Bc1NO72CXc2oeRNOE
 kind: youtube#subscription
 snippet:
   channelId: UCENUJD9ZsD0dDTdUYECoNsw
@@ -10,9 +10,9 @@ snippet:
     kind: youtube#channel
   thumbnails:
     default:
-      url: https://yt3.ggpht.com/ytc/APkrFKYD7bIRKtNxWNYXXUQN7XxUtN0_1ziRuZC5CyjO=s88-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_mAe9ImMrr1p85MovVEBlOp9BcIHUgTaitt-1mFL0DsWg=s88-c-k-c0x00ffffff-no-rj
     high:
-      url: https://yt3.ggpht.com/ytc/APkrFKYD7bIRKtNxWNYXXUQN7XxUtN0_1ziRuZC5CyjO=s800-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_mAe9ImMrr1p85MovVEBlOp9BcIHUgTaitt-1mFL0DsWg=s800-c-k-c0x00ffffff-no-rj
     medium:
-      url: https://yt3.ggpht.com/ytc/APkrFKYD7bIRKtNxWNYXXUQN7XxUtN0_1ziRuZC5CyjO=s240-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_mAe9ImMrr1p85MovVEBlOp9BcIHUgTaitt-1mFL0DsWg=s240-c-k-c0x00ffffff-no-rj
   title: 小叔TV

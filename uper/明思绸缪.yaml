@@ -1,0 +1,18 @@
+author: 明思绸缪
+etag: KDPH_RShhTCOOCZkxu40wmHdZpU
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: 搬运一些值得思考和探讨的视频，希望大家能够多多交互
+  publishedAt: '2024-04-23T13:32:26.501949Z'
+  resourceId:
+    channelId: UCCVlflPVrhbQYOVQ8KAHFqw
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/ytc/AIdro_ng3vdmQ70ckkEDn8ODXy01T1k4iclHBSOBC5Qal-YxKcB6AAI=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/ytc/AIdro_ng3vdmQ70ckkEDn8ODXy01T1k4iclHBSOBC5Qal-YxKcB6AAI=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/ytc/AIdro_ng3vdmQ70ckkEDn8ODXy01T1k4iclHBSOBC5Qal-YxKcB6AAI=s240-c-k-c0x00ffffff-no-rj
+  title: 明思绸缪

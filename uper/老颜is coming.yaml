@@ -1,0 +1,18 @@
+author: 老颜is coming
+etag: IqAc_zdpr_qBT_hfV09H8RPOpB8
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: ''
+  publishedAt: '2024-05-07T14:26:53.659757Z'
+  resourceId:
+    channelId: UCdmzoOZpLjROoIBIHawBfvQ
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/aU5HOtaVtVeUwp_qaJ166lP0fcYYd5tADvcS52Ef9H9dKST2Jk1lilOgbWItLQpej_HOz2Pnpn4=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/aU5HOtaVtVeUwp_qaJ166lP0fcYYd5tADvcS52Ef9H9dKST2Jk1lilOgbWItLQpej_HOz2Pnpn4=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/aU5HOtaVtVeUwp_qaJ166lP0fcYYd5tADvcS52Ef9H9dKST2Jk1lilOgbWItLQpej_HOz2Pnpn4=s240-c-k-c0x00ffffff-no-rj
+  title: 老颜is coming

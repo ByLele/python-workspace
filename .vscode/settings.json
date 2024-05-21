@@ -1,4 +1,7 @@
 {
     "search-online.search-engine": "Github",
-    "python.pythonPath": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+    "python.pythonPath": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "DevChat.Language": "zh",
+    "DevChat.PythonForCommands": "/Users/vbnvc/.chat/mamba/envs/devchat-commands/bin/python",
+    "python.analysis.typeCheckingMode": "basic"
 }

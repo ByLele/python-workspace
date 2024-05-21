@@ -1,5 +1,5 @@
 author: AT&T Tech Channel
-etag: 4jSAsmzWQsjAjcOuk0uHvkQNlpE
+etag: MZNvewIM6od4l1xz5tJXVFHIFeU
 kind: youtube#subscription
 snippet:
   channelId: UCENUJD9ZsD0dDTdUYECoNsw
@@ -10,9 +10,9 @@ snippet:
     kind: youtube#channel
   thumbnails:
     default:
-      url: https://yt3.ggpht.com/ytc/APkrFKYEnkaq_o6G1-pKDhHXi09TqX4sSvQx8PFPDtrs=s88-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_kCQeCjPa9C1BlZBEouKdu7WLlQX73IZftngblTERwJBg=s88-c-k-c0x00ffffff-no-rj
     high:
-      url: https://yt3.ggpht.com/ytc/APkrFKYEnkaq_o6G1-pKDhHXi09TqX4sSvQx8PFPDtrs=s800-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_kCQeCjPa9C1BlZBEouKdu7WLlQX73IZftngblTERwJBg=s800-c-k-c0x00ffffff-no-rj
     medium:
-      url: https://yt3.ggpht.com/ytc/APkrFKYEnkaq_o6G1-pKDhHXi09TqX4sSvQx8PFPDtrs=s240-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_kCQeCjPa9C1BlZBEouKdu7WLlQX73IZftngblTERwJBg=s240-c-k-c0x00ffffff-no-rj
   title: AT&T Tech Channel

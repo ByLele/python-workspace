@@ -1,5 +1,5 @@
 author: 一席YiXi
-etag: nP7QENCpKSFYhy6spdqnAv-aWt8
+etag: KpbdlOWn6kgpsL3AeInKbpt88SI
 kind: youtube#subscription
 snippet:
   channelId: UCENUJD9ZsD0dDTdUYECoNsw
@@ -22,9 +22,9 @@ snippet:
     kind: youtube#channel
   thumbnails:
     default:
-      url: https://yt3.ggpht.com/ytc/APkrFKbgYUjGIfIcF57qiGPe9NbaP6bGsqsjyh06eORe=s88-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_mQLoig2s9mol5eM__c8uivvvykDUCeA9oq3w2AwygRwQ=s88-c-k-c0x00ffffff-no-rj
     high:
-      url: https://yt3.ggpht.com/ytc/APkrFKbgYUjGIfIcF57qiGPe9NbaP6bGsqsjyh06eORe=s800-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_mQLoig2s9mol5eM__c8uivvvykDUCeA9oq3w2AwygRwQ=s800-c-k-c0x00ffffff-no-rj
     medium:
-      url: https://yt3.ggpht.com/ytc/APkrFKbgYUjGIfIcF57qiGPe9NbaP6bGsqsjyh06eORe=s240-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_mQLoig2s9mol5eM__c8uivvvykDUCeA9oq3w2AwygRwQ=s240-c-k-c0x00ffffff-no-rj
   title: 一席YiXi

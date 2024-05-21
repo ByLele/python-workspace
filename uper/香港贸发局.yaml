@@ -1,5 +1,5 @@
 author: 香港贸发局
-etag: 6qr9v8jMgUvP0jLlTiLsLTtqqM0
+etag: rzPpoDFuyxofJFIo-y1M7a39Fyo
 kind: youtube#subscription
 snippet:
   channelId: UCENUJD9ZsD0dDTdUYECoNsw
@@ -25,9 +25,9 @@ snippet:
     kind: youtube#channel
   thumbnails:
     default:
-      url: https://yt3.ggpht.com/ytc/APkrFKauuzM36_qZaYLjOx_iyyy4AvtmYpRlp8T2SUyu=s88-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_mspc6g6WiXsBgr7GM18OfrugbgOSsVJee_RwNGPPY8OA=s88-c-k-c0x00ffffff-no-rj
     high:
-      url: https://yt3.ggpht.com/ytc/APkrFKauuzM36_qZaYLjOx_iyyy4AvtmYpRlp8T2SUyu=s800-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_mspc6g6WiXsBgr7GM18OfrugbgOSsVJee_RwNGPPY8OA=s800-c-k-c0x00ffffff-no-rj
     medium:
-      url: https://yt3.ggpht.com/ytc/APkrFKauuzM36_qZaYLjOx_iyyy4AvtmYpRlp8T2SUyu=s240-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/ytc/AIdro_mspc6g6WiXsBgr7GM18OfrugbgOSsVJee_RwNGPPY8OA=s240-c-k-c0x00ffffff-no-rj
   title: 香港贸发局

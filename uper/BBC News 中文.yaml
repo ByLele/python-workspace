@@ -1,5 +1,5 @@
 author: BBC News 中文
-etag: Be_HPji1ftargAksDhwPk-W_I-Q
+etag: JGG3qsFYgcVh4qL6Ni7QKWRCPWg
 kind: youtube#subscription
 snippet:
   channelId: UCENUJD9ZsD0dDTdUYECoNsw
@@ -11,9 +11,9 @@ snippet:
     kind: youtube#channel
   thumbnails:
     default:
-      url: https://yt3.ggpht.com/ytc/APkrFKa97V0XdjOkCC9MUYNWd86oyLGrg60Js1-tvAeD4g=s88-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/lEDHFHAjAGiYA4XRWfcbx3q12a4rN8xcKt6g9GSGawHgvnRPAHe7T4ebVDZPydPor98Is8-ICg=s88-c-k-c0x00ffffff-no-rj
     high:
-      url: https://yt3.ggpht.com/ytc/APkrFKa97V0XdjOkCC9MUYNWd86oyLGrg60Js1-tvAeD4g=s800-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/lEDHFHAjAGiYA4XRWfcbx3q12a4rN8xcKt6g9GSGawHgvnRPAHe7T4ebVDZPydPor98Is8-ICg=s800-c-k-c0x00ffffff-no-rj
     medium:
-      url: https://yt3.ggpht.com/ytc/APkrFKa97V0XdjOkCC9MUYNWd86oyLGrg60Js1-tvAeD4g=s240-c-k-c0x00ffffff-no-rj
+      url: https://yt3.ggpht.com/lEDHFHAjAGiYA4XRWfcbx3q12a4rN8xcKt6g9GSGawHgvnRPAHe7T4ebVDZPydPor98Is8-ICg=s240-c-k-c0x00ffffff-no-rj
   title: BBC News 中文

@@ -1,0 +1,18 @@
+author: Prefabrick
+etag: PI8rN_4MHuhX-2DGBu5TRZcP5PY
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: A LEGO fan, ChinaLUG member
+  publishedAt: '2023-12-12T15:23:09.265451Z'
+  resourceId:
+    channelId: UCRcJXyi79SIUbGX0GyOwACQ
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/pn7oT-1aIzq8RzsXGwVnJlxkxcH7o8aSVAzqJgyLY1XX3wgYwVzy30j-kQyvDHimcUqhAwzn=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/pn7oT-1aIzq8RzsXGwVnJlxkxcH7o8aSVAzqJgyLY1XX3wgYwVzy30j-kQyvDHimcUqhAwzn=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/pn7oT-1aIzq8RzsXGwVnJlxkxcH7o8aSVAzqJgyLY1XX3wgYwVzy30j-kQyvDHimcUqhAwzn=s240-c-k-c0x00ffffff-no-rj
+  title: Prefabrick

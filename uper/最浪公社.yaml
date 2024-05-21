@@ -1,0 +1,18 @@
+author: 最浪公社
+etag: w6DAoJCmvy9WzrBxwVIrELGjWAE
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: 最浪的文艺公社
+  publishedAt: '2023-12-26T13:51:00.566103Z'
+  resourceId:
+    channelId: UCRIA7P3G_ieM2rL91MeVFBw
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/ytc/AIdro_l4bkXq7_X-1zNSlXyNgjTMGmwqgNb-aiji2DU-x78jeA=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/ytc/AIdro_l4bkXq7_X-1zNSlXyNgjTMGmwqgNb-aiji2DU-x78jeA=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/ytc/AIdro_l4bkXq7_X-1zNSlXyNgjTMGmwqgNb-aiji2DU-x78jeA=s240-c-k-c0x00ffffff-no-rj
+  title: 最浪公社
