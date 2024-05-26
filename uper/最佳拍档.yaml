@@ -1,0 +1,18 @@
+author: 最佳拍档
+etag: p34GWsQO_ZXq4bPxrSjOfSKl2XY
+kind: youtube#subscription
+snippet:
+  channelId: UCENUJD9ZsD0dDTdUYECoNsw
+  description: Technology YouTube channel.
+  publishedAt: '2024-05-17T13:01:29.678647Z'
+  resourceId:
+    channelId: UCGWYKICLOE8Wxy7q3eYXmPA
+    kind: youtube#channel
+  thumbnails:
+    default:
+      url: https://yt3.ggpht.com/i8mwFES8swLy-DGLwQrDp33iKxcVOSVFE0Ss6YQi0xeYmu3e04Zm1A14nUmB3zDocEJBLwt4=s88-c-k-c0x00ffffff-no-rj
+    high:
+      url: https://yt3.ggpht.com/i8mwFES8swLy-DGLwQrDp33iKxcVOSVFE0Ss6YQi0xeYmu3e04Zm1A14nUmB3zDocEJBLwt4=s800-c-k-c0x00ffffff-no-rj
+    medium:
+      url: https://yt3.ggpht.com/i8mwFES8swLy-DGLwQrDp33iKxcVOSVFE0Ss6YQi0xeYmu3e04Zm1A14nUmB3zDocEJBLwt4=s240-c-k-c0x00ffffff-no-rj
+  title: 最佳拍档

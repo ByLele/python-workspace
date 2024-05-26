@@ -1,0 +1,25 @@
+
+
+from utils.utils import _json
+from myNotionApi.notionapi import db_add_page
+from myNotionApi.uper_data_reader import uper_data_obj
+
+def notion_sync(uper:dict,databaseID:str,headers:str):
+    if uper and uper.get("uper") and uper.get("video_list"):
+        
+        
+        video_list = uper.get("video_list") 
+        uper = uper.get("uper")
+        json_data = uper_data_obj
+        for item in video_list:  
+            
+            _json(json_data,new_value=item.get("title",""),json_path="$.Description.rich_text[0].text.content")
+            _json(json_data,new_value=uper,json_path="$.Name.title[0].text.content",)
+            _json(json_data,new_value=item.get("url"),json_path="$.URL.rich_text[0].text.content")
+            _json(json_data,new_value= item.get("publishedAt"), json_path="$.publishAt.date.start")
+
+            print(json_data)
+
+            res = db_add_page(databaseID=databaseID, headers=headers,properties=json_data)
+
+            print(res)

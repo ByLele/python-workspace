@@ -1,9 +1,9 @@
-google
-google_auth_oauthlib
-google-auth-oauthlib
-notion_client
-request
-yaml
 google-api-python-client
+google
+google-auth-oauthlib
+#notion_client
+#request
 jsonpath_ng
-Pyaml
+PYaml
+loguru
+pydantic_setting

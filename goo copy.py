@@ -1,4 +1,9 @@
 # *utf-8*
+from googleapiclient.discovery import build
+from google_auth_oauthlib.flow import InstalledAppFlow
+from google.auth.transport.requests import Request
+from pprint import pprint
+import urllib.parse as p
 import re
 import os
 import pickle
@@ -7,12 +12,6 @@ import json
 import yaml
 import sys
 import time
-from googleapiclient.discovery import build
-from google_auth_oauthlib.flow import InstalledAppFlow
-from google.auth.transport.requests import Request
-from pprint import pprint
-import urllib.parse as p
-
 from loguru import logger
 sys.path.append("/Users/vbnvc/GitRepo/python-workspace")
 from utils.notion_util import _json                                                                                             
@@ -181,7 +180,11 @@ def uper_activities(youtube,channelId:str)-> dict:
         logger.error("activity_channel error")
 
 def sub_sync(youtube):
-        
+    """_summary_
+
+    Args:
+        youtube (_type_): _description_
+    """
     channellist = get_sub(youtube)
     items = channellist.get("items")
     uper_yaml_write(items)

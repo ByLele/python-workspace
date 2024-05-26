@@ -6,3 +6,9 @@
 2024-05-15 22:43:43.507 | INFO     | __main__:sub_sync:193 - sync_sub write yaml success
 2024-05-15 22:43:44.373 | INFO     | __main__:yaml_reader:134 - channelId read success
 2024-05-15 23:07:03.747 | ERROR    | __main__:uper_activities:180 - activity_channel error
+2024-05-22 21:16:57.517 | INFO     | __main__:sub_sync:187 - uper folder sync sub data 
+2024-05-22 21:16:58.606 | INFO     | __main__:sub_sync:193 - sync_sub write yaml success
+2024-05-22 21:18:12.701 | INFO     | __main__:sub_sync:187 - uper folder sync sub data 
+2024-05-22 21:18:13.854 | INFO     | __main__:sub_sync:193 - sync_sub write yaml success
+2024-05-22 21:18:15.312 | INFO     | __main__:yaml_reader:134 - channelId read success
+2024-05-22 21:29:09.177 | ERROR    | __main__:uper_activities:180 - activity_channel error
